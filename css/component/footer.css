@@ -1,0 +1,117 @@
+/* footer */
+footer {
+  color: var(--dark-color);
+  background: var(--light-color);
+  padding: 1rem 1rem;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  /* gap: 2rem; */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Newsletter section */
+.footer-coll {
+  grid-column: span 2;
+  margin-right: 30px;
+}
+.footer-coll img {
+  margin-bottom: 1rem;
+}
+.footer-coll p {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: var(--semi-dark);
+}
+.newsletter-form {
+  display: flex;
+  margin-top: 1rem;
+  width: 90%;
+  padding: 14px;
+  background-color: var(--accent-color);
+}
+.newsletter-form input {
+  flex: 1;
+  padding: 0.6rem;
+  border-radius: 0px;
+  outline: none;
+  background-color: var(--accent-color);
+  color: var(--light-color);
+}
+.newsletter-form input::placeholder {
+  color: var(--light-color);
+  font-style: italic;
+  font-size: 0.9rem;
+}
+.newsletter-form button {
+  padding: 0.6rem 1rem;
+  border: none;
+  background: var(--dark-color);
+  color: var(--light-color);
+  border-radius: 0;
+  cursor: pointer;
+  transition: all ease-in-out 0.2s;
+}
+.newsletter-form button:hover {
+  background: var(--light-color);
+  color: var(--dark-color);
+  font-weight: 700;
+}
+
+/* Footer columns */
+.footer-col h3 {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--dark-color);
+}
+.footer-col ul li {
+  margin-bottom: 0.5rem;
+}
+.footer-col ul li a {
+  color: var(--gray-color);
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+.footer-col ul li a:hover {
+  color: var(--accent-color);
+}
+
+/* Social icons */
+.social-icons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.social-icons a {
+  color: var(--semi-dark);
+  font-size: 1.3rem;
+  transition: color 0.2s ease;
+}
+.social-icons a:hover {
+  color: var(--accent-color);
+}
+
+/* Footer bottom */
+.footer-bottom {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 0.85rem;
+  border-top: 1px solid #ccc;
+  padding-top: 1rem;
+  color: #666;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer-container {
+    gap: 1rem;
+  }
+  .footer-coll {
+    grid-column: span 2;
+  }
+}
