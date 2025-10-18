@@ -1,0 +1,39 @@
+/* الخطوط */
+/* @font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto/Roboto_Regular.woff2");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto/Roboto_Medium.woff2");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto/Roboto_Bold.woff2");
+  font-weight: 700;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", serif;
+}
+
+:root {
+  --primary-color: #f1c30f;
+  --secondary-color: #f7f7f7;
+  --dark-color: #000;
+  --semi-dark: #333;
+  --light-color: #fff;
+  --gray-color: #808080;
+  --accent-color: #ad8645;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
